@@ -1,0 +1,37 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Noto+Sans+KR:wght@300;400;500;700;900&family=JetBrains+Mono:wght@400;500&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Noto Sans KR", "Space Grotesk", ui-sans-serif, system-ui, sans-serif;
+  --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, monospace;
+  
+  --color-natural-bg: #FDFBF7;
+  --color-natural-panel: #F7F3EB;
+  --color-natural-text: #4A443F;
+  --color-natural-muted: #8C8379;
+  --color-natural-sage: #8DA399;
+  --color-natural-sage-hover: #7A8E85;
+  --color-natural-coral: #D68C78;
+  --color-natural-coral-hover: #C37A67;
+  --color-natural-board: #EBD8B7;
+  --color-natural-board-border: #C7B299;
+  --color-natural-board-line: #A68F71;
+  --color-natural-border: #E6E1D6;
+}
+
+/* Custom scrollbars for chat */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(156, 163, 175, 0.3);
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(156, 163, 175, 0.5);
+}
+

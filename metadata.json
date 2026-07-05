@@ -1,0 +1,6 @@
+{
+  "name": "실시간 오목 배틀",
+  "description": "방 생성 후 QR코드와 참여 코드로 간편하게 친구와 접속하여 실시간 오목 대전과 채팅을 즐길 수 있는 모바일 최적화 웹 서비스입니다.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
